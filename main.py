@@ -1,3 +1,4 @@
+# This script logs workout data to a Google Sheet using the Sheety API and Nutritionix API
 import os
 from datetime import datetime
 
