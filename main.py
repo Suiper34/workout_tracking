@@ -28,8 +28,8 @@ workout_response = requests.post(
     url=URL, headers=nutritionix_headers, json=parameters)
 workout_response.raise_for_status()
 workout_data = workout_response.json()
-print(workout_data)
-print(workout_response.text)
+# print(workout_data)
+# print(workout_response.text)
 
 
 sheety_header = {'Authorization': authorization}
